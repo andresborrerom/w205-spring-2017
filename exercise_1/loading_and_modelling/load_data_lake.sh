@@ -19,8 +19,13 @@ wget "$MY_URL" -O medicare_data.zip
 unzip medicare_data.zip
 
 # create our hdfs directory
-
 hdfs dfs -mkdir /user/w205/hospital_compare
+hdfs dfs -mkdir /user/w205/hospital_compare/hospitals
+hdfs dfs -mkdir /user/w205/hospital_compare/effective
+hdfs dfs -mkdir /user/w205/hospital_compare/surveys
+hdfs dfs -mkdir /user/w205/hospital_compare/measures
+hdfs dfs -mkdir /user/w205/hospital_compare/readmissions
+
 
 # remove the first line of files and rename
 OLD_FILE="Hospital General Information.csv"
@@ -40,11 +45,11 @@ tail -n +2 "Readmissions and Deaths - Hospital.csv" >readmissions.csv
 
 # copy the files to hdfs
 
-hdfs dfs -put $NEW_FILE /user/w205/hospital_compare
-hdfs dfs -put effective_care.csv /user/w205/hospital_compare
-hdfs dfs -put surveys_responses.csv /user/w205/hospital_compare
-hdfs dfs -put Measures.csv /user/w205/hospital_compare
-hdfs dfs -put readmissions.csv /user/w205/hospital_compare
+hdfs dfs -put $NEW_FILE /user/w205/hospital_compare/hospitals
+hdfs dfs -put effective_care.csv /user/w205/hospital_compare/effective
+hdfs dfs -put surveys_responses.csv /user/w205/hospital_compare/surveys
+hdfs dfs -put Measures.csv /user/w205/hospital_compare/measures
+hdfs dfs -put readmissions.csv /user/w205/hospital_compare/readmissions
 
 
 
