@@ -1,0 +1,23 @@
+
+Hospital variability for each procedure is measured by the standard deviation of the score (see best_hospitals.txt) of each hospital. 
+It describes for which procedures hospitals tend to get far from the average score and have fatter tails on the distribution. 
+
+for Cataract surgery it is important to selet the right hospital, and surprisingly Heart attack or chest pains 
+(clear urgency) should be treated on a carefully selected hospital rather than running to the nearest one. 
+
+Support may be found in the following table
+
+
+
+
+Cataract surgery outcome        Improvement in Patient�s Visual Function within 90 Days Following Cataract Surgery      29.2661343094838
+Heart Attack or Chest Pain      Fibrinolytic Therapy Received Within 30 Minutes of ED Arrival   25.241285115105295
+Colonoscopy care        Endoscopy/polyp surveillance: appropriate follow-up interval for normal colonoscopy in average risk patients    24.50305252578068
+Emergency Department    Head CT results 19.92578053825412
+Colonoscopy care        Endoscopy/polyp surveillance: colonoscopy interval for patients with a history of adenomatous polyps - avoidance of inappropriate use   19.27928592661989
+Preventive Care Healthcare workers given influenza vaccination  16.75447902918922
+Stroke Care     Thrombolytic Therapy    16.30348256434334
+Heart Attack or Chest Pain      Median Time to Fibrinolysis     13.654576646704502
+Preventive Care Immunization for influenza      13.29761753544573
+Blood Clot Prevention and Treatment     Warfarin therapy discharge instructions 13.20162830855801
+

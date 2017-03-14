@@ -1,0 +1,20 @@
+The best states, DC and Maryland are the most 
+consistent states throughout the different procedures. 
+
+Selected by the average of their hospital's score (see best_hospitals.txt)
+the top 10 states guarantee stability of capability for different illness
+treatment. 
+
+
+
+DC      65.0016441941455
+MD      63.14725120797276
+NH      60.21237087681287
+CA      58.47037419384618
+MA      57.07000915999042
+NY      56.872294208052026
+PR      56.0814419620859
+CT      55.8294999114973
+SC      55.717213542015706
+RI      55.587312392366506
+

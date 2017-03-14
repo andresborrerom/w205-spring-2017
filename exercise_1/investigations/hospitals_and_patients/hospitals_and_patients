@@ -1,0 +1,39 @@
+Evidence shows no correlation at all between hospital scores and patient survey. 
+
+The following table shows the score for 20 hospitals, their variability amongst their own procedures, the overall score
+from the patient survey, and an example of another field in the survey, the nurse communication. 
+
+41.61213090987422       46.23521559695793       61.36   71.76
+39.74282697476035       47.5766552430921        75.16   80.51
+41.82308484185494       50.43266943403793       58.25   64.65
+39.04637425089247       43.68932151447917       70.91   81.25
+38.62884543078385       45.47563488880991       73.18   85.17
+44.174176244331505      44.15864729166204       68.52   74.71
+33.10543854019302       34.97712409176621       59.65   75.27
+37.65762260972827       38.705238507052776      69.89   76.19
+44.250663325032825      46.60586267969007       73.37   75.75
+36.80173542554955       53.13591297836694       64.09   73.49
+42.50080746867859       41.47651867604403       77.48   83.09
+41.41969422560967       42.92438853023768       73.14   79.84
+40.04459777771524       45.908391132285566      59.47   69.85
+39.48411666675874       44.974631378226455      74.85   79.98
+37.02921723832351       40.242851764433276      78.43   89.35
+41.384580510508584      43.572591378351206      76.51   80.61
+41.068203203422655      38.169396324705744      73.05   79.08
+40.82136686270413       52.220512884583705      62.03   76.77
+38.79520188708823       40.54221396851925       69.34   80.71
+41.10029804047072       44.33268015558326       58.36   77.44
+
+The correlations are very near zero (score and variability vs surveys):
+
+Time taken: 2.635 seconds, Fetched 20 row(s)
+-0.0015942097877358246
+Time taken: 2.33 seconds, Fetched 1 row(s)
+0.2926665462573049
+Time taken: 0.715 seconds, Fetched 1 row(s)
+-0.0399815824568437
+Time taken: 0.479 seconds, Fetched 1 row(s)
+0.2631665656836893
+
+
+Apparently, patient view and experience is independent from health and procedure measure results.

@@ -1,0 +1,25 @@
+The Best Hospitals and their score are shown on the folowing table:
+
+010087  UNIVERSITY OF SOUTH ALABAMA MEDICAL CENTER      59.65184967913774
+050764  SHASTA REGIONAL MEDICAL CENTER  58.1295002492916
+110165  SOUTHERN REGIONAL MEDICAL CENTER        58.12237198293492
+330056  BROOKLYN HOSPITAL CENTER AT DOWNTOWN CAMPUS     57.798527339818776
+330202  KINGS COUNTY HOSPITAL CENTER    57.66707090376789
+390204  NAZARETH HOSPITAL       57.300140334305134
+050060  COMMUNITY REGIONAL MEDICAL CENTER       57.114126311951004
+050517  VICTOR VALLEY GLOBAL MEDICAL CENTER     57.073886881055905
+140251  COMMUNITY FIRST MEDICAL CENTER  56.689141302247705
+271318  BARRETT HOSPITAL & HEALTHCARE   56.60780222306275
+
+The range of the score goes from 59.65(%) down to 18.25(%). The selected approach is based on 
+giving a score from 0 to 100 for each procedure based on all the hospitals scores and its own
+score among them. So if it has the lowest score it has a 0, the top score 100, and if in between, 
+it scores on the percentage of the distance from the lowest to top (example: if lowest is 20, 
+top is 80, and own score is 65, the score for that procedure is 75%). 
+
+The final score for each hospital is its average on those scores, if it has more than 10 valid scored 
+procedures (at least half of the total measures). 
+
+So the hospitals are ranked on their overall situation for each procedure against the other hospitals. 
+
+Top hospitals are slightly on the top half on average, and low ranked hospitals are way below (bottom quartile).
